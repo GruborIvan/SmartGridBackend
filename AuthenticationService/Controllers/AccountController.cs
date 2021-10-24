@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using AuthenticationService.Models;
 using AuthenticationService.Providers;
 using AuthenticationService.Results;
+using System.Web.Http.Cors;
 
 namespace AuthenticationService.Controllers
 {

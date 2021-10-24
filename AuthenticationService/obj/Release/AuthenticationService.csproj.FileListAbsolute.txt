@@ -115,3 +115,8 @@ D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Release\Authenticatio
 D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Release\AuthenticationService.csproj.CoreCompileInputs.cache
 D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Release\AuthenticationService.dll
 D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Release\AuthenticationService.pdb
+D:\Projekat\Web Projekat Backend\AuthenticationService\bin\System.Web.Cors.dll
+D:\Projekat\Web Projekat Backend\AuthenticationService\bin\System.Web.Http.Cors.dll
+D:\Projekat\Web Projekat Backend\AuthenticationService\bin\System.Web.Http.Cors.xml
+D:\Projekat\Web Projekat Backend\AuthenticationService\bin\Microsoft.Owin.Cors.dll
+D:\Projekat\Web Projekat Backend\AuthenticationService\bin\Microsoft.Owin.Cors.xml

@@ -85,11 +85,20 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 16:10:50</publishTime>
     </File>
+    <File Include="bin/Microsoft.Owin.Cors.dll">
+      <publishTime>05/07/2021 23:09:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>05/07/2021 23:08:46</publishTime>
+    </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>08/08/2018 05:38:48</publishTime>
@@ -239,16 +248,22 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/08/2018 12:18:16</publishTime>
     </File>
     <File Include="bin/SmartGridService.dll">
-      <publishTime>10/21/2021 00:28:42</publishTime>
+      <publishTime>10/24/2021 19:27:07</publishTime>
     </File>
     <File Include="bin/SmartGridService.pdb">
-      <publishTime>10/21/2021 00:28:42</publishTime>
+      <publishTime>10/24/2021 19:27:07</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>11/28/2018 13:00:36</publishTime>
     </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>11/28/2018 12:58:44</publishTime>
+    </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>11/28/2018 13:01:26</publishTime>
     </File>
     <File Include="bin/System.Web.Http.dll">
       <publishTime>11/28/2018 13:01:00</publishTime>
@@ -368,7 +383,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>10/19/2021 17:09:51</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/21/2021 00:28:42</publishTime>
+      <publishTime>10/24/2021 19:27:07</publishTime>
     </File>
   </ItemGroup>
 </Project>

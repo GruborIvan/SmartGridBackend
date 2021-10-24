@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using AuthenticationService.Providers;
 using AuthenticationService.Models;
+using Microsoft.Owin.Cors;
 
 namespace AuthenticationService
 {

@@ -86,6 +86,13 @@ D:\Projekat\Web Projekat Backend\SmartGridService\obj\Release\SmartGridService.c
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Release\SmartGridService.Migrations.InitialMigrations.resources
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Release\SmartGridService.csproj.GenerateResource.cache
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Release\SmartGridService.csproj.CoreCompileInputs.cache
-D:\Projekat\Web Projekat Backend\SmartGridService\obj\Release\SmartGridService.csproj.CopyComplete
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Release\SmartGridService.dll
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Release\SmartGridService.pdb
+D:\Projekat\Web Projekat Backend\SmartGridService\bin\System.Web.Cors.dll
+D:\Projekat\Web Projekat Backend\SmartGridService\bin\System.Web.Http.Cors.dll
+D:\Projekat\Web Projekat Backend\SmartGridService\bin\System.Web.Http.Cors.xml
+D:\Projekat\Web Projekat Backend\SmartGridService\bin\Microsoft.Owin.Cors.dll
+D:\Projekat\Web Projekat Backend\SmartGridService\bin\Microsoft.Owin.dll
+D:\Projekat\Web Projekat Backend\SmartGridService\bin\Owin.dll
+D:\Projekat\Web Projekat Backend\SmartGridService\bin\Microsoft.Owin.xml
+D:\Projekat\Web Projekat Backend\SmartGridService\bin\Microsoft.Owin.Cors.xml
