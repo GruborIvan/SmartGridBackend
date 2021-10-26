@@ -12,7 +12,6 @@ using System.Web.Http.Cors;
 
 namespace AuthenticationService.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class EkipaController : ApiController
     {
         ICrewRepository _repository;

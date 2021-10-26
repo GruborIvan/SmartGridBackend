@@ -27,7 +27,13 @@ namespace SmartGridService.Repository.Repository
             Incident i = GetIncidentById(incidentId);
             if (i != null)
             {
-                i.EkipaId = crewId;
+                try
+                {
+                    i.EkipaId = crewId;
+                    db.Entry<Incident>(i).State = System.Data.Entity.EntityState.Modified;
+                    db.SaveChanges();
+                }
+                catch(Exception e)  {   }
             }
         }
 

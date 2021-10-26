@@ -58,7 +58,7 @@ namespace SmartGridService.Controllers
             {
                 repo.ReadAll(ids);
             }
-            return Ok();
+            return Ok(repo.GetAllUnread());
         }
 
     }

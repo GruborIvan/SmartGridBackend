@@ -11,6 +11,7 @@ using Owin;
 using AuthenticationService.Providers;
 using AuthenticationService.Models;
 using Microsoft.Owin.Cors;
+using System.Web.Http.Cors;
 
 namespace AuthenticationService
 {
@@ -23,6 +24,7 @@ namespace AuthenticationService
         // For more information on configuring authentication, please visit https://go.microsoft.com/fwlink/?LinkId=301864
         public void ConfigureAuth(IAppBuilder app)
         {
+            app.UseCors(CorsOptions.AllowAll);
             // Configure the db context and user manager to use a single instance per request
             app.CreatePerOwinContext(ApplicationDbContext.Create);
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);

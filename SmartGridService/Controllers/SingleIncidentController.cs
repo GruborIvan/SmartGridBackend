@@ -1,4 +1,5 @@
-﻿using SmartGridService.Models;
+﻿using SmartGridService.Controllers.DTO;
+using SmartGridService.Models;
 using SmartGridService.Repository.Interfaces;
 using SmartGridService.Repository.Repository;
 using System;
@@ -17,6 +18,12 @@ namespace SmartGridService.Controllers
         public SingleIncidentController()
         {
             _repo = new IncidentRepository();
+        }
+
+        public IHttpActionResult PutAssignCrewToIncident([FromBody] CrewDTO dto)
+        {
+            _repo.AssignCrewToIncident(dto.crewId,dto.incidentId);
+            return Ok();
         }
 
         public IHttpActionResult Get(string incidentId)
