@@ -12,5 +12,6 @@ namespace AuthenticationService.Repository.Interfaces
         IEnumerable<Crew> GetAll();
         Crew GetEkipaById(int id);
         void AssignUserToCrew(CrewPostDTO dto);
+        IEnumerable<UserInfo> GetUnassignedCrewMembers();
     }
 }

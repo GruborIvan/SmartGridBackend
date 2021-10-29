@@ -28,6 +28,10 @@ namespace AuthenticationService.Controllers
 
         public IHttpActionResult PostAssignUserToCrew([FromBody] CrewPostDTO dto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             _repository.AssignUserToCrew(dto);
             return Ok();
         }

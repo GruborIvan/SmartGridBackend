@@ -46,5 +46,10 @@ namespace AuthenticationService.Repository.Repo
             return db.Crews.Find(id);
         }
 
+        public IEnumerable<UserInfo> GetUnassignedCrewMembers()
+        {
+            return db.UserInfos.Where(x => x.EkipaId == 0);
+        }
+
     }
 }
