@@ -117,6 +117,6 @@ D:\Projekat\Web Projekat Backend\AuthenticationService\bin\Microsoft.CodeDom.Pro
 D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Debug\AuthenticationService.Migrations.InitialMigration.resources
 D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Debug\AuthenticationService.csproj.GenerateResource.cache
 D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Debug\AuthenticationService.csproj.CoreCompileInputs.cache
+D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Debug\AuthenticationService.csproj.CopyComplete
 D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Debug\AuthenticationService.dll
 D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Debug\AuthenticationService.pdb
-D:\Projekat\Web Projekat Backend\AuthenticationService\obj\Debug\AuthenticationService.csproj.AssemblyReference.cache

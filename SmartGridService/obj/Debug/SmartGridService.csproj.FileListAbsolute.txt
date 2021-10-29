@@ -94,5 +94,6 @@ D:\Projekat\Web Projekat Backend\SmartGridService\obj\Debug\SmartGridService.csp
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Debug\SmartGridService.Migrations.InitialMigrations.resources
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Debug\SmartGridService.csproj.GenerateResource.cache
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Debug\SmartGridService.csproj.CoreCompileInputs.cache
+D:\Projekat\Web Projekat Backend\SmartGridService\obj\Debug\SmartGridService.csproj.CopyComplete
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Debug\SmartGridService.dll
 D:\Projekat\Web Projekat Backend\SmartGridService\obj\Debug\SmartGridService.pdb

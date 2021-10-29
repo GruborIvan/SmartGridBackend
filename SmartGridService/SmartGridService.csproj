@@ -177,6 +177,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\DashboardDataController.cs" />
     <Compile Include="Controllers\DTO\CrewDTO.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IncidentiController.cs" />
@@ -198,6 +199,7 @@
       <DependentUpon>202110202007204_Initial-Migrations.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\DashboardData.cs" />
     <Compile Include="Models\Enums\TipIncidenta.cs" />
     <Compile Include="Models\Enums\TipRada.cs" />
     <Compile Include="Models\Incident.cs" />
@@ -206,11 +208,13 @@
     <Compile Include="Models\Oprema.cs" />
     <Compile Include="Models\PlanRada.cs" />
     <Compile Include="Models\Poziv.cs" />
+    <Compile Include="Models\Prioritet.cs" />
     <Compile Include="Models\Resolution.cs" />
     <Compile Include="Models\SafetyDocument.cs" />
     <Compile Include="Models\SmartGridDbContext.cs" />
     <Compile Include="Models\Enums\TipPoruke.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Interfaces\IDashboardDataRepository.cs" />
     <Compile Include="Repository\Interfaces\IIncidentRepository.cs" />
     <Compile Include="Repository\Interfaces\INalogRadaRepository.cs" />
     <Compile Include="Repository\Interfaces\INotificationRepository.cs" />
@@ -219,12 +223,15 @@
     <Compile Include="Repository\Interfaces\IPozivRepository.cs" />
     <Compile Include="Repository\Interfaces\IResolutionRepository.cs" />
     <Compile Include="Repository\Interfaces\ISafetyDocumentRepository.cs" />
+    <Compile Include="Repository\Interfaces\PrioritetRepository.cs" />
+    <Compile Include="Repository\Repository\DashboardDataRepository.cs" />
     <Compile Include="Repository\Repository\IncidentRepository.cs" />
     <Compile Include="Repository\Repository\NalogRadaRepository.cs" />
     <Compile Include="Repository\Repository\NotificationRepository.cs" />
     <Compile Include="Repository\Repository\OpremaRepository.cs" />
     <Compile Include="Repository\Repository\PlanRadaRepository.cs" />
     <Compile Include="Repository\Repository\PozivRepository.cs" />
+    <Compile Include="Repository\Repository\PrioritetRepository.cs" />
     <Compile Include="Repository\Repository\ResolutionRepository.cs" />
     <Compile Include="Repository\Repository\SafetyDocumentsRepository.cs" />
   </ItemGroup>
